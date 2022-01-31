@@ -14,12 +14,17 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> 
     <p>Me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem');
-        window.confirm('Está gostando de JavaScript?'); //vai aparecer ok ou cancelar
-        window.prompt('Qual seu Nome?'); //vai perguntar o nome
+       var nome = window.prompt('Qual seu Nome?'); //vai perguntar o nome
+       window.alert('É um grande Prazer te conhecer, ' + nome + '!') //Contatenação
+       var idade = window.prompt('Qual sua idade?');
+       window.alert('Sua idade é ,' + idade);
+       var alt = window.prompt('Qual sua Altura');
+       window.alert('Sua altura é ,' + alt);
+       var sex = window.prompt('Qual seu Gênero?')
+        window.alert('Seu Gênero é ' + sex);
    </script>
 </body>
 </html>

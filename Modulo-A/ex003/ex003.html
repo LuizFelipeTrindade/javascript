@@ -14,12 +14,16 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> 
     <p>Me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem');
-        window.confirm('Está gostando de JavaScript?'); //vai aparecer ok ou cancelar
-        window.prompt('Qual seu Nome?'); //vai perguntar o nome
+       var n1 = Number(window.prompt('Digite um Número')); //string
+       var n2 = Number(window.prompt('Digite outro Número')); //string
+       //number.parseInt
+       //number.parseFloat
+       var s = n1 + n2;
+       window.alert('A soma entre os valores somados é '  + s );
+       //O '+' serve tanto para concatenação quanto para a soma
    </script>
 </body>
 </html>
