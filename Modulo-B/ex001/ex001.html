@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
+    <style>
+        body {
+            background-color: lightblue;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Iniciando Estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <div id= 'msg'>
+        Clique aqui em mim
+    </div>
+    <p>Aprendendo a usar <strong>DOM</strong> em java Script</p>
+    <script>
+        var corpo = window.document.body;
+        var p1 = window.document.getElementsByTagName("p")[1];
+        document.write(p1.innerHTML);
+        // var d = window.document.getElementById('msg');
+        // d.style.background = 'green';
+        // d.innerText = 'Estou Aguardadno...'
+        var d = window.document.querySelector('div#msg');
+        d.style.color = 'blue';
+        d.style.background = 'lightblue'
+    </script>
 </body>
 </html>
