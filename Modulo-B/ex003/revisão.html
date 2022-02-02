@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Valores Somando</h1>
+    <input type="number" name="num1" id="num1"> x 
+    <input type="number" name="num2" id="num2"> 
+    <input type="button" value="Multiplicar" onclick="multiplicar()" class='botão'>
+    <div id = 'resultado'>
+    </div>
+    <input type="number" name="dv1" id="dv1"> / 
+    <input type="number" name="dv2" id="dv2">
+    <input type="button" value="Dividir" onclick="Dividir()" class='botão'>
+    <div id='result'></div>
+    <script>
+        function multiplicar() {
+            var nu1 = document.getElementById('num1');
+            var nu2 = document.getElementById('num2');
+            var res = document.getElementById('resultado');
+            var n1 = Number(nu1.value);
+            var n2 = Number(nu2.value);
+            var s = n1 * n2 ;
+            res.innerHTML = `O resultado é ${s}`;
+        }
+        function Dividir() {
+            var dvd1 = document.getElementById('dv1');
+            var dvd2 = document.getElementById('dv2');
+            var resu = document.getElementById('result');
+            var m1 = Number(dvd1.value);
+            var m2 = Number(dvd2.value);
+            var m = m1 / m2 ;
+            resu.innerHTML = `O resultado é ${m}`;
+        }
+    </script>
+</body>
+</html>

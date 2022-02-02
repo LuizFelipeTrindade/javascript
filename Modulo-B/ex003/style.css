@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+div#resultado {
+    margin-top: 20px;
+}
+
+input#num1 {
+    width: 100px;
+    background-color: lightblue;
+}
+
+input#num2 {
+    width: 100px;
+    background-color: aqua;
+}
+
+.botão {
+    background-color: lightgray;
+    color : black;
+    margin-left: 5px;
+    width: 100px;
+}
+
+input#dv1 {
+    width: 100px;
+    background-color: lightblue;
+}
+
+input#dv2 {
+    width: 100px;
+    background-color: aqua;
+}
+
+.botão {
+    background-color: lightgray;
+    color : black;
+    margin-left: 5px;
+    width: 100px;
+}
