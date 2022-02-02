@@ -41,15 +41,16 @@ header {
 .menu li {
     list-style: none;
     height: 50%;
+    margin-right: 80px;
 }
 
 .menu li a {
     color:black;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.4em;
     transition-duration: 0.2s;
     padding: 10px;
-    margin-right: 10px;
     border-radius: 5px;
 }
 
@@ -91,7 +92,22 @@ span {
     font-size: 1.5em;
 }
 
-.conteudo h3 {
+.conteudo h3 a {
+    text-decoration: none;
     font-weight: bold;
     font-size: 1.6em;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #2450A6;
+    transition: 0.5s;
+    border-radius: 5px;
+    color:white;
+}
+
+.conteudo h3 a:hover {
+    letter-spacing: 6px;
 }
