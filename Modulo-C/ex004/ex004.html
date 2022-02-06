@@ -8,21 +8,21 @@
 </head>
 <body>
     <h1>Países</h1>
-    <input type="button" value="lugar">
+    Você é do <input type="text" name="txtn1" id="txtn1">
+    <input type="button" value="lugar" onclick="lugar()">
     <div id='lugar'>
-        Você é 
+        
     </div>
-    <script>
-       var pais = 'Brasil'
-       var lugar = window.document.getElementById('lugar');
-       var vc = (pais.value);
-       lugar.innerHTML = `Você é do ${pais}`;
-       if (pais == 'Brasil'){
-           lugar.innerHTML += 'Você é Brasileiro'
-       } else {
-           lugar.innerHTML += 'Você é estrangeiro';
-       }
-
+    <script> 
+        var txt1 = document.getElementById('txtn1');
+        var lug = document.getElementById('lugar');
+        var txt = Text('txt1.value');
+        var pais = 'Brasil';
+        if (pais == Brasil){
+            lugar.innerText += 'Você é Brasileiro';
+        } else {
+            lugar.innerText += 'Você é estrangeiro';
+        }
     </script>
 </body>
 </html>
