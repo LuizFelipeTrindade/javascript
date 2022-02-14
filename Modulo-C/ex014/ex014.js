@@ -9,4 +9,4 @@ if (idade < 16) {
 // no primeiro if a idade é menor que 16 , então ele não vota,
 // no segundo ''else if'' a idade é menor que 18 e maior que 65 então o voto é opcional
 //no terceiro a idade é maior que 17 e o voto é obrigatório
-//Gravar isso para entender lógica
+//Gravar isso para entender lógica 
