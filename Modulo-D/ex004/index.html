@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Exercício</title>
+    <title>Exercício Contador</title>
 </head>
 <body>
-    
-    
-    
-    
+    <header><h1 class="txt">Vamos contar</h1></header>
+    <section>
+        <div>
+            <p class="txt2">Início</p><input type="number" name="num1" id="num1">
+            <!-- Input Number 1 -->
+            <p class="txt3">Fim</p><input type="number" name="num2" id="num2">
+            <!-- input Number 2 -->
+            <p class="txt4">Passo</p><input type="number" name="num3" id="num3">
+            <!-- Input Number 3 -->
+            <input type="button" value="contar" onclick="contar()" class="button">
+            <!-- Botão -->
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        &copy; <a href="https://github.com/LuizFelipeTrindade" target="_blank">Luiz Felipe</a> 
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
