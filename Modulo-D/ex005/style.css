@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.eml {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.sen {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 173px;
+}
+
+p {
+    margin-left: 81px;
+    margin-bottom: 1px;
+}
